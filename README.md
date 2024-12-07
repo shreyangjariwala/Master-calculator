@@ -30,9 +30,9 @@ Create a form that allows the user to input the necessary data for EMI calculati
 
 ### Pictures of application 
 
-<img src="https://github.com/artichaudhary0/MasterCalculatorAndroid/assets/71622834/31305680-3e5e-4bd3-9d29-3e01c47885c6" width="200"/>
-<img src="https://github.com/artichaudhary0/MasterCalculatorAndroid/assets/71622834/48a83ece-9a22-44b6-8315-eece16b5e3a1" width="200"/>
-<img src="https://github.com/artichaudhary0/MasterCalculatorAndroid/assets/71622834/eab61910-e027-4e7e-8b8e-6d94fa79adbd" width="200"/>
+<img ![Screenshot 2024-12-07 190034](https://github.com/user-attachments/assets/542fa5da-66b0-416a-8cf2-968fc6db23a2)/>
+<img![Screenshot 2024-12-07 190047](https://github.com/user-attachments/assets/a53fd4b7-e79a-43e2-a9fc-a082f5136cf3)/>
+<img ![Screenshot 2024-12-07 190153](https://github.com/user-attachments/assets/5d97efee-c5f4-4714-8fce-5d313f2d4579)/>
 
 ### Demo
 https://github.com/artichaudhary0/EmiCalculator/assets/71622834/94ec642c-0feb-46db-a665-510e2ce9f455
