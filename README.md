@@ -34,9 +34,6 @@ Create a form that allows the user to input the necessary data for EMI calculati
 <img![](https://github.com/user-attachments/assets/a53fd4b7-e79a-43e2-a9fc-a082f5136cf3)/>
 <img ![](https://github.com/user-attachments/assets/5d97efee-c5f4-4714-8fce-5d313f2d4579)/>
 
-### Demo
-https://github.com/artichaudhary0/EmiCalculator/assets/71622834/94ec642c-0feb-46db-a665-510e2ce9f455
-
 ## Contribution
 We welcome all contributions. Here's how you can help:
 
