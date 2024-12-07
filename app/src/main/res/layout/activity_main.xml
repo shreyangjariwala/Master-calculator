@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C3B5C"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/icon" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:background="@drawable/squre"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:text="Start App"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/clickHere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="25dp"
+            android:layout_marginStart="110dp"
+            android:paddingHorizontal="70dp"
+            android:text="Click Here"
+            android:textColor="@color/white"
+            tools:ignore="HardcodedText,RtlSymmetry" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginRight="10dp"
+            android:padding="40dp"
+            android:src="@drawable/right"
+            tools:ignore="RtlHardcoded" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="60dp" />
+
+        <TextView
+            android:id="@+id/About"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/squre"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:text="About Us"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText" />
+
+        <!--        <Button-->
+<!--            android:id="@+id/know more"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="end"-->
+<!--            android:layout_margin="25dp"-->
+<!--            android:layout_marginStart="110dp"-->
+<!--            android:paddingHorizontal="80dp"-->
+<!--            android:text="Click Here"-->
+<!--            android:textColor="@color/white"-->
+<!--            tools:ignore="HardcodedText,RtlSymmetry" />-->
+
+        <Button
+            android:id="@+id/clickHere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="25dp"
+            android:layout_marginStart="110dp"
+            android:paddingHorizontal="80dp"
+            android:text="Click Here"
+            android:textColor="@color/white"
+            tools:ignore="DuplicateIds,HardcodedText,RtlSymmetry"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/right"
+            tools:ignore="RtlHardcoded" />
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ShareApp"
+            android:layout_width="168dp"
+            android:layout_height="53dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="25dp"
+            android:background="@drawable/squre"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="@string/share_app"
+            android:textColor="@color/white"
+            tools:ignore="DuplicateIds,RtlSymmetry" />
+
+        <Button
+            android:id="@+id/RateApp"
+            android:layout_width="168dp"
+            android:layout_height="53dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="25dp"
+            android:background="@drawable/squre"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="@string/rate_app"
+            android:textColor="@color/white"
+            tools:ignore="DuplicateIds,RtlSymmetry" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
